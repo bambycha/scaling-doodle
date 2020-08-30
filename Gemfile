@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.6.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
@@ -22,6 +22,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   gem 'pry', '~> 0.13'
+  gem 'rspec-rails', '~> 4.0'
+  gem 'factory_bot_rails', '~> 5.1'
+  gem 'shoulda-matchers', '~> 4.0'
 end
 
 group :development do
