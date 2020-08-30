@@ -11,6 +11,9 @@ gem 'sqlite3', '~> 1.4'
 gem 'puma', '~> 4.1'
 
 gem 'jsonapi-serializer', '~> 2.0'
+
+gem 'ddtrace', '~> 0.39'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
