@@ -21,9 +21,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # gem 'rack-cors'
 
 group :development, :test do
+  gem 'factory_bot_rails', '~> 5.1'
   gem 'pry', '~> 0.13'
   gem 'rspec-rails', '~> 4.0'
-  gem 'factory_bot_rails', '~> 5.1'
   gem 'shoulda-matchers', '~> 4.0'
 end
 
@@ -35,4 +35,4 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
