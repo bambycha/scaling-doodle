@@ -26,6 +26,7 @@ curl -X POST http://localhost:3000/users/1/carts -d 'cart[user_id]=1'
 
 <details>
   <summary>Response:</summary>
+
 ```json
 {
   "data": {
@@ -58,6 +59,7 @@ curl -X POST http://localhost:3000/users/1/carts/24/line_items \
 
 <details>
   <summary>Response:</summary>
+
 ```json
 {
   "data": {
@@ -111,6 +113,7 @@ curl http://localhost:3000/users/1/carts/1
 
 <details>
   <summary>Response:</summary>
+
 ```json
 {
   "data": {
